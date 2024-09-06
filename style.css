@@ -1,0 +1,228 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.inicio p{
+    font-size: xx-large;
+    margin: 35px;
+    line-height: 50px;
+    color: white;
+    z-index: 5;
+    margin-top: 660px;
+    position: absolute;
+}
+.content{
+    padding-top: 180px;
+}
+.inicio{
+    padding-top: 300px;
+}
+.text{
+    font-size: 40px;
+    width: 100%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+.header{
+    background-color: #aa906de8;
+    width: 100vw;
+    position: fixed;
+    z-index: 11;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.item{
+    width: 100px;
+    height: 100px;
+    padding: 0px 0px 1000px 1200px;
+    position: relative;
+}
+.header img{
+    width: 150px;
+    height: 150px;
+    z-index: 11;
+    position: relative;
+}
+nav{
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 800px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    z-index: 10;
+}
+nav ul{
+    padding-top: 120px;
+    padding-left: 90px;
+    list-style-type: none;
+}
+li img{
+    width: 80px;
+    height: 80px;
+}
+li a{
+    font-size: x-large;
+}
+.opc{
+    background-color: rgba(201, 161, 116, 0.432);
+    padding: 20px;
+    margin: 5px;
+    width: 500px;
+    height: 700px;
+    max-height: 800px;
+    border-radius: 10px;
+}
+.bovinos, .b, .b2, .s, .s2{
+    background-color: rgba(255, 255, 255, 0.404);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-content: flex-start;
+    font-size: 1.5rem;
+}
+.menu-toggle{
+    display: none;
+}
+.menu-botton{
+    font-size: 30px;
+    cursor: pointer;
+    position: fixed;
+    top: 1px;
+    right: 10px;
+    z-index: 12;
+}
+.menu{
+    position: fixed;
+    top: 0;
+    right: -550px;
+    width: 550px;
+    height: 100vh;
+    background-color: white;
+    padding-top: 130px;
+    transition: right 0.3s ease;
+    z-index: 11;
+}
+.menu a{
+    display: block;
+    color: black;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+.menu a:hover{
+    background-color: #e2e0e0;
+}
+.menu img{
+    width: 120px;
+    height: auto;
+    margin-right: 10px;
+    padding-left: 50px;
+}
+.menu-toggle:checked + .menu-botton + .menu{
+    right: 0;
+}
+.container{
+    display: flex;
+}
+.container img{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    z-index: -1;
+    position: fixed;
+}
+.opc img{
+    width: 500px;
+    height: 400px;
+    align-items: center;
+    margin-right: 10px;
+}
+h1{
+    display: flex;
+    font-size: 60px;
+    align-items: center;
+}
+.inicio h1{
+    color: white;
+    padding-top: 500px;
+    position: absolute;
+}
+.escolhas{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    width: 100vw;
+}
+.itens img{
+    width: 250px;
+    height: 250px;
+}
+.itens h3{
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.itens{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 5px;
+    width: 500px;
+    height: 630px;
+    max-height: 630px;
+    border-radius: 25px;
+    box-shadow: 0 8px 16px 7px rgba(0, 0, 0, 0.267);
+    align-content: center;
+}
+.aves{
+    background-color: rgba(255, 255, 255, 0.404);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+.aves, .bovinos, .suinos, .itens, .opc p{
+    font-size: 28px;
+    text-align: justify;
+    margin: 15px;
+    line-height: 40px;
+}
+.suinos{
+    background-color: rgba(255, 255, 255, 0.404);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+.suinos .opc{
+    width: 500px;
+    height: 630px;
+}
+footer{
+    font-size: x-large;
+    text-align: right;
+    background-color: white;
+}
+.menu-inicio{
+    position: absolute;
+    background-color: white;
+    margin-top: 820px;
+    padding-bottom: 400px;
+}
